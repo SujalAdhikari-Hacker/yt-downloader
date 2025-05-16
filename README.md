@@ -6,6 +6,8 @@
 
 ## 🚀 About This Project
 
+> **Note:** Pre-built `YouTubeDownloader.exe` and `ffmpeg.exe` are not included in this repository due to GitHub file size limits. You can either download them from the project’s Releases page (when available), or generate your own binaries following the Packaging instructions below.
+
 I created **YouTubeDownloader** to have a simple, no-fuss desktop tool:
 
 * Intuitive GUI: paste URL, pick folder, choose resolution & format.
@@ -21,9 +23,10 @@ This is my fully open-source side project; feel free to explore or tweak how I d
 
 ### 📦 Run the EXE (zero setup)
 
-1. Download **YouTubeDownloader.exe** from the [`dist/`](dist/) folder.
-2. Double-click and the GUI launches immediately.
-3. Paste a YouTube link, select your folder, choose resolution/format, and click **Download**.
+> YouTubeDownloader.exe and ffmpeg.exe aren’t stored here due to size constraints. To get a ready-to-run EXE, either:
+>
+> 1. Download the latest release from the GitHub Releases page (when available).
+> 2. Build your own using PyInstaller (see the **Packaging** section below).
 
 ### 🐍 Run from Source (for tinkers)
 
